@@ -6,7 +6,10 @@
 }
 
 .logo {
-  color: white;
+  color: rgb(167, 17, 17);
+  margin-right: 200rem;
+  height: 1rem;
+  width: 15rem;
 }
 
 
@@ -28,22 +31,25 @@
 }
 
 .tag {
-margin-bottom: 200px;
+margin-bottom: 100px;
 margin-left: 12rem;
 width: 80rem;
 font-size: 4em;
+font-weight: 600;
 line-height: 40px;
 color: rgb(167, 17, 17);
 }
 
 
 .menuNav {
-  background-color: yellow;
+  background: url("./Assets/homepic.jpg") no-repeat center fixed ;
+  background-size: cover;
   height: 100vh;
 }
 
 .contactNav {
-  background-color: peachpuff;
+  background: url("./Assets/homepic.jpg") no-repeat center fixed ;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -56,21 +62,33 @@ color: rgb(167, 17, 17);
 }
 
 .test {
-  /* display: flex; */
-  text-align: right;
-  /* height: 10vh; */
+    text-align: right;
   align-items: center;
-  /* justify-content: space-between; */
   background-color: grey;
-  color: white;
+  color: rgb(167, 17, 17);
   padding: 20px;
 }
 
 .test a {
   margin-left: 30px;
   margin-right: 10px;
-  /* margin-top: 25px; */
   text-decoration: none;
-  color: white;
+  color: rgb(167, 17, 17);
 
+}
+
+.contactparagraph {
+  color: rgb(167, 17, 17);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 6.5rem;
+}
+
+.form-container {
+  margin-left: 30rem;
+  margin-top: 5rem;
+  border: 3px solid rgb(167, 17, 17);
+  padding: 60px;
+  width: 20rem;
+  background-color: white;
 }
