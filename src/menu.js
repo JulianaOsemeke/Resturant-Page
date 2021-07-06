@@ -1,4 +1,5 @@
 const menu = () => {
+  
   const container = document.createElement("div");
   container.className = 'menuNav'
 
@@ -7,7 +8,14 @@ const menu = () => {
   const paragraph = document.createElement("p");
   paragraph.innerHTML = "Menu"
 
+  const menuDiv = document.createElement("div");
+  menuDiv.className = 'menuContainer'
+  paragraph.innerHTML = "Menu"
+
+
+
   container.appendChild(paragraph)
+  
 
   return container
 }
