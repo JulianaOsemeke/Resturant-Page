@@ -1,6 +1,6 @@
 const home = () => {
   const container = document.createElement("div");
-  container.className = 'homeNav'
+  container.className = 'homeContainer'
   
 
   const tagline = document.createElement("h1");
