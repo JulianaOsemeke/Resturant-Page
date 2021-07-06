@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.logo {
+  color: white;
+}
+
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeNav {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("./Assets/homepic.jpg") no-repeat center fixed ;
+  background-size: cover;
+}
+
+.tag {
+margin-bottom: 200px;
+margin-left: 12rem;
+width: 80rem;
+font-size: 4em;
+line-height: 40px;
+color: rgb(167, 17, 17);
+}
+
+
+.menuNav {
+  background-color: yellow;
+  height: 100vh;
+}
+
+.contactNav {
+  background-color: peachpuff;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.test {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+}
