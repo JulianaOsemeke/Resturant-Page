@@ -14,13 +14,13 @@ parent.append(home())
 parent.append(menu())
 parent.append(contact())
 
-const homes = document.querySelector('.homepage')
-const menus = document.querySelector ('.menupage')
-const contacts = document.querySelector('.contactLink')
+const homeconst = document.querySelector('.homepage')
+const menuconst = document.querySelector ('.menupage')
+const contactconst = document.querySelector('.contactLink')
 
 
 
-homes.addEventListener('click', () => {
+homeconst.addEventListener('click', () => {
   document.querySelector('.menuNav').classList.remove('show');
   document.querySelector('.homeContainer').classList.remove('hide');
   document.querySelector('.homeContainer').classList.add('show');
@@ -30,7 +30,7 @@ homes.addEventListener('click', () => {
 });
 
 
-menus.addEventListener('click', () => {
+menuconst.addEventListener('click', () => {
   document.querySelector('.homeContainer').classList.add('hide');
   document.querySelector('.homeContainer').classList.remove('show');
   document.querySelector('.menuNav').classList.remove('hide');
@@ -40,7 +40,7 @@ menus.addEventListener('click', () => {
 });
 
 
-contacts.addEventListener('click', () => {
+contactconst.addEventListener('click', () => {
   
   document.querySelector('.contactNav').classList.remove('hide');
   document.querySelector('.contactNav').classList.add('show');
