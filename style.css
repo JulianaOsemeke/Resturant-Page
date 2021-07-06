@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 
-.homeNav {
+.homeContainer {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -56,10 +56,21 @@ color: rgb(167, 17, 17);
 }
 
 .test {
-  display: flex;
-  height: 10vh;
+  /* display: flex; */
+  text-align: right;
+  /* height: 10vh; */
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: grey;
   color: white;
+  padding: 20px;
+}
+
+.test a {
+  margin-left: 30px;
+  margin-right: 10px;
+  /* margin-top: 25px; */
+  text-decoration: none;
+  color: white;
+
 }
