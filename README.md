@@ -21,7 +21,6 @@ This is a solo project that involves building a simple restaurant page with Java
 
 ```
 - $ git clone `$ git clone git@github.com:JulianaOsemeke/Resturant-Page.git`
-- $ git checkout development
 - $ `cd Restaurant-Page`
 - $ npm install --save-dev webpack
 
