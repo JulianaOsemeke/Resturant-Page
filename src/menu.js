@@ -73,7 +73,6 @@ const menu = () => {
   <br>
   </house>
   `
-
   container.appendChild(paragraph)
   container.appendChild(divimage)
   container.appendChild(divimage2)
