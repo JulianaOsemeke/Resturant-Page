@@ -86,9 +86,37 @@ color: rgb(167, 17, 17);
 
 .form-container {
   margin-left: 30rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
   border: 3px solid rgb(167, 17, 17);
   padding: 60px;
   width: 20rem;
   background-color: white;
+}
+
+
+.house {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.menuList h2,
+.menuList p{
+  color: rgb(167, 17, 17);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.menuList button{
+  padding: 6px;
+  background-color: rgb(167, 17, 17);
+  color: white;
+  border-radius: 5px;
+}
+
+.menuTitle {
+  color:rgb(167, 17, 17);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
 }
