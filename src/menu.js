@@ -1,3 +1,5 @@
+import { div } from "prelude-ls";
+
 const menu = () => {
   
   const container = document.createElement("div");
@@ -6,18 +8,15 @@ const menu = () => {
   container.classList.add('hide')
 
   const paragraph = document.createElement("p");
+  paragraph.className = "menuTitle"
   paragraph.innerHTML = "Menu"
 
-  
-  // const imageDiv = document.createElement
-  // imageDiv.className = "imageList"
-  
-  const divimage = new Image(200, 200); 
+
+  const divimage = new Image(200, 200);
   divimage.setAttribute('src', './Assets/BangaSoup.jpeg')
- 
+  
   const divimage2 = new Image(200, 200); 
   divimage2.setAttribute('src', './Assets/Beanpudding.jpeg')
-  
   
   const divimage3= new Image(200, 200); 
   divimage3.setAttribute('src', './Assets/Ewariro.jpeg')
@@ -36,32 +35,44 @@ const menu = () => {
   menucon.className = "menuList"
   menucon.innerHTML = `
   <div class = "house">
-  <div></div>
-  <p> Banga Soup </p>
-  <p> 500naira </p>
+  <div>
+  <h2> Banga Soup </h2>
+  <p> Price:1500N</p>
+  <button type="button">ORDER</button>
+  </div>
   <br>
-  <p> BeanPudding</p>
-  <p> 500naira </p>
+  <div>
+  <h2> BeanPudding</h2>
+  <p> Price:500N </p>
+  <button type="button">ORDER</button>
+  </div>
   <br>
-  <p> Beans</p>
-  <p> 500naira </p>
+  <div>
+  <h2>Bean Porridge</h2>
+  <p> Price:1000N </p>
+  <button type="button">ORDER</button>
+  </div>
   <br>
-  <p> Jollof Rice </p>
-  <p> 500naira </p>
+  <div>
+  <h2> Jollof Rice </h2>
+  <p>Price: 2000N </p>
+  <button type="button">ORDER</button>
+  </div>
   <br>
-  <p> White rice </p>
-  <p> 500naira </p>
+  <div>
+  <h2> White rice </h2>
+  <p> Price:800N </p>
+  <button type="button">ORDER</button>
+  </div>
   <br>
-  <p> Yam </p>
-  <p> 500naira </p>
+  <div>
+  <h2> Yam </h2>
+  <p> Price:500N </p>
+  <button type="button">ORDER</button>
+  </div>
   <br>
   </house>
   `
-
-  
-  
-
-
 
   container.appendChild(paragraph)
   container.appendChild(divimage)
@@ -70,19 +81,7 @@ const menu = () => {
   container.appendChild(divimage4)
   container.appendChild(divimage5)
   container.appendChild(divimage6)
-  // container.appendChild(imageList)
   container.appendChild(menucon)
-  
-
-  // container.appendChild(menucon)
-  // container.appendChild(menucon1)
-  // container.appendChild(menuDiv2)
-  // container.appendChild(menuDiv3)
-  // container.appendChild(menuDiv4)
-  
-  
-
-  
 
   return container
 }
