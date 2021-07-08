@@ -1,24 +1,24 @@
-import navbar from './navbar'
-import home from './homepage'
-import menu from  './menu'
-import contact from './contact'
-import '../dist/style.css'
+import navbar from './navbar';
+import home from './homepage';
+import menu from './menu';
+import contact from './contact';
+import '../dist/style.css';
 
 const text = document.createElement('p');
-text.innerHTML = "New paragraph";
-text.className = "test";
-const parent = document.querySelector("#content");
+text.innerHTML = 'New paragraph';
+text.className = 'test';
+const parent = document.querySelector('#content');
 
-parent.append(navbar())
-parent.append(home())
-parent.append(menu())
-parent.append(contact())
+parent.append(navbar());
+parent.append(home());
+parent.append(menu());
+parent.append(contact());
 
-const homeconst = document.querySelector('.homepage')
-const menuconst = document.querySelector ('.menupage')
-const contactconst = document.querySelector('.contactLink')
+const homeconst = document.querySelector('.homepage');
+const menuconst = document.querySelector('.menupage');
+const contactconst = document.querySelector('.contactLink');
 
-  homeconst.addEventListener('click', () => {
+homeconst.addEventListener('click', () => {
   document.querySelector('.menuNav').classList.remove('show');
   document.querySelector('.homeContainer').classList.remove('hide');
   document.querySelector('.homeContainer').classList.add('show');
@@ -43,6 +43,3 @@ contactconst.addEventListener('click', () => {
   document.querySelector('.menuNav').classList.add('hide');
   document.querySelector('.menuNav').classList.remove('show');
 });
-
-
-
