@@ -23,7 +23,7 @@ const contact = () => {
 </div>
 <br>
 <div>
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" class="submit">
 </div>
   `;
 
