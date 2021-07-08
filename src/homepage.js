@@ -6,7 +6,6 @@ const home = () => {
   tagline.className = 'tag';
   container.appendChild(tagline);
   return container;
-}
+};
 
 export default home;
-

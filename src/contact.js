@@ -8,9 +8,8 @@ const contact = () => {
   const form = document.createElement('form');
   form.actionon = '#';
   form.className = 'form-container';
-  form.innerHTML =
-		` 
-  <div>
+  form.innerHTML = ` 
+<div>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
 </div>
 <div>
@@ -21,11 +20,11 @@ const contact = () => {
 <div>
 <input type="submit" value="Submit" class="submit">
 </div>
-  `;
+ `;
 
-	container.appendChild(paragraph);
-	container.appendChild(form);
+  container.appendChild(paragraph);
+  container.appendChild(form);
   return container;
-}
+};
 
 export default contact;
