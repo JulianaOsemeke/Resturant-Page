@@ -1,8 +1,8 @@
 const contact = () => {
-	const container = document.createElement('div');
-	container.className = 'contactNav'
+	 const container = document.createElement('div');
+	 container.className = 'contactNav';
 
-	container.classList.add('hide')
+	container.classList.add('hide');
 
 	const paragraph = document.createElement('p');
 	paragraph.innerHTML = "CONTACT US";
