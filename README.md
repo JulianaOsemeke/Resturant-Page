@@ -12,6 +12,8 @@ This is a solo project that involves building a simple restaurant page with Java
 - CSS3
 
 ## Live Demo
+- [Live Demo Link](https://julianaosemeke.github.io/Resturant-Page/)
+
 
 ## Getting Started
 
