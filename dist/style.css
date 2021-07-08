@@ -102,7 +102,8 @@ color: rgb(167, 17, 17);
   font-size: 18px;
 }
 
-.menuList button{
+.menuList button,
+.submit{
   padding: 6px;
   background-color: rgb(167, 17, 17);
   color: white;
