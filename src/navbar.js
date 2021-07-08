@@ -27,7 +27,7 @@ function navbar() {
   menu.appendChild(homepageLink);
   menu.appendChild(menuLink);
   menu.appendChild(nav);
-  return menu
-};
+  return menu;
+}
 
-export default navbar
+export default navbar;
