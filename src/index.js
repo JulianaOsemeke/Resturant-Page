@@ -4,9 +4,9 @@ import menu from  './menu'
 import contact from './contact'
 import '../dist/style.css'
 
-const text = document.createElement("p");
-text.innerHTML = "New paragraph"
-text.className = "test"
+const text = document.createElement('p');
+text.innerHTML = "New paragraph";
+text.className = "test";
 const parent = document.querySelector("#content");
 
 parent.append(navbar())
@@ -18,9 +18,7 @@ const homeconst = document.querySelector('.homepage')
 const menuconst = document.querySelector ('.menupage')
 const contactconst = document.querySelector('.contactLink')
 
-
-
-homeconst.addEventListener('click', () => {
+  homeconst.addEventListener('click', () => {
   document.querySelector('.menuNav').classList.remove('show');
   document.querySelector('.homeContainer').classList.remove('hide');
   document.querySelector('.homeContainer').classList.add('show');
@@ -28,7 +26,6 @@ homeconst.addEventListener('click', () => {
   document.querySelector('.contactNav').classList.add('hide');
   document.querySelector('.contactNav').classList.remove('show');
 });
-
 
 menuconst.addEventListener('click', () => {
   document.querySelector('.homeContainer').classList.add('hide');
@@ -39,9 +36,7 @@ menuconst.addEventListener('click', () => {
   document.querySelector('.contactNav').classList.remove('show');
 });
 
-
 contactconst.addEventListener('click', () => {
-  
   document.querySelector('.contactNav').classList.remove('hide');
   document.querySelector('.contactNav').classList.add('show');
   document.querySelector('.homeContainer').classList.add('hide');

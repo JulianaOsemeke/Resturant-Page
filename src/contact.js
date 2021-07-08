@@ -1,19 +1,18 @@
 const contact = () => {
-  const container = document.createElement("div");
-  container.className = 'contactNav'
+	const container = document.createElement('div');
+	container.className = 'contactNav'
 
-  
-  container.classList.add('hide')
-  
-  const paragraph = document.createElement("p");
-  paragraph.innerHTML = "CONTACT US"
-  paragraph.className = "contactparagraph"
+	container.classList.add('hide')
 
-  const form = document.createElement('form');
-  form.actionon = '#';
-  form.className = 'form-container'
-  form.innerHTML = 
-  ` 
+	const paragraph = document.createElement('p');
+	paragraph.innerHTML = "CONTACT US";
+	paragraph.className = "contactparagraph";
+
+	const form = document.createElement('form');
+	form.actionon = '#';
+	form.className = 'form-container';
+	form.innerHTML =
+		` 
   <div>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
 </div>
@@ -27,10 +26,10 @@ const contact = () => {
 </div>
   `;
 
-  container.appendChild(paragraph)
-  container.appendChild(form)
+	container.appendChild(paragraph)
+	container.appendChild(form)
 
-  return container
+	return container
 }
 
 export default contact
